@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/home"
+    app:showAsAction="always"
+    android:title="home"
+    android:icon="@drawable/group_26"
+    android:visible="true"
+    />
+
+<item
+    android:id="@+id/friends"
+    app:showAsAction="always"
+    android:title="friends"
+    android:icon="@drawable/group_29"
+    android:visible="true"
+    />
+<item
+    android:id="@+id/vysov"
+    app:showAsAction="always"
+    android:title="vysov"
+    android:icon="@drawable/group_28"
+    android:visible="true"
+    />
+<item
+    android:id="@+id/profile"
+    app:showAsAction="always"
+    android:title="profile"
+    android:icon="@drawable/group_20"
+    android:visible="true"
+    />
+
+</menu>

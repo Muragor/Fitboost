@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_18"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_28"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="170dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/karla_extrabold"
+            android:text="Создайте аккаунт"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:alpha="0.59"
+            android:background="@drawable/rectangle_24"
+            android:fontFamily="@font/karla_extrabold"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:hint="Имя пользователя"
+            android:textColorHint="#302F37"
+            android:textColor="#302F37"
+            android:textSize="11dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/emailEdTxt"
+            android:textColorHint="#302F37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:alpha="0.59"
+            android:background="@drawable/rectangle_24"
+            android:fontFamily="@font/karla_extrabold"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:hint="Адрес электронной почты/номер телефона"
+            android:textColor="#302F37"
+            android:textSize="11dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/pswrdEdTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#302F37"
+            android:alpha="0.59"
+            android:background="@drawable/rectangle_24"
+            android:fontFamily="@font/karla_extrabold"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:hint="Пароль"
+            android:textColor="#302F37"
+            android:textSize="11dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/pswrdEdTxtChecker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#302F37"
+            android:alpha="0.59"
+            android:background="@drawable/rectangle_24"
+            android:fontFamily="@font/karla_extrabold"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:hint="Повторите пароль"
+            android:textColor="#302F37"
+            android:textSize="11dp"
+            tools:ignore="TextSizeCheck" />
+        <ImageButton
+            android:id="@+id/rgstBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/group_19"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:id="@+id/toLgn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/karla_extrabold"
+            android:text="Уже есть аккаунт?"
+            android:textColor="#302F37"
+            android:textSize="10dp"
+            android:alpha="0.59"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

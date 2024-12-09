@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_18"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="233dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/rectangle_28"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/karla_extrabold"
+            android:text="Вход"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/emailEdTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:alpha="0.59"
+            android:background="@drawable/rectangle_24"
+            android:fontFamily="@font/karla_extrabold"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:hint="Адрес электронной почты/номер телефона"
+            android:textColorHint="#302F37"
+            android:textColor="#302F37"
+            android:textSize="11dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/pswrdEdTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:alpha="0.59"
+            android:background="@drawable/rectangle_24"
+            android:fontFamily="@font/karla_extrabold"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:hint="Пароль"
+            android:textColorHint="#302F37"
+            android:textColor="#302F37"
+            android:textSize="11dp"
+            tools:ignore="TextSizeCheck" />
+
+
+        <ImageButton
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:background="@drawable/group_30" />
+
+    </LinearLayout>
+
+</LinearLayout>

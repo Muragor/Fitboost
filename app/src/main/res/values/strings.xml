@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Fitboost</string>
+    <string name="login_error">Неправильно введена почта</string>
+    <string name="password_error">Неправильно введен пароль</string>
+    <string name="password_error_same">Пароли не совпадают!</string>
+</resources>

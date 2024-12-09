@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278347217032",
+    "project_id": "fitboost-b3a73",
+    "storage_bucket": "fitboost-b3a73.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278347217032:android:bf3ff772160739c0e3c73d",
+        "android_client_info": {
+          "package_name": "com.example.fitboost"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5wZDwB3HWV8dDpFcOeaZM4dlfXSvzD0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
